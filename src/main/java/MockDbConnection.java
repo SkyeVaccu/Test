@@ -5,7 +5,7 @@ public class MockDbConnection implements  IDBConnection{
 
     public MockDbConnection(){
         mdb=new HashMap<String,Account>();
-        Account a=new Account("1","11111",300);
+        Account a=new Account("2","11111",300);
         Account b=new Account("2","22222",2000);
         mdb.put(a.getCardNo(),a);
         mdb.put(b.getCardNo(),b);
